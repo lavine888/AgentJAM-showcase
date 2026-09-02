@@ -1,0 +1,58 @@
+name: Vendor AgentJAM media
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/vendor-agentjam-media.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  vendor-media:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout showcase repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Copy original AgentJAM screenshots into this repository
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets/agentjam
+          BASE="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj"
+
+          for i in $(seq -w 1 10); do
+            echo "Fetching shot${i}.png"
+            curl -fL --retry 3 --retry-delay 2 \
+              "${BASE}/shot${i}.png" \
+              -o "assets/agentjam/shot${i}.png"
+          done
+
+          cat > assets/agentjam/README.md <<'EOF'
+          # AgentJAM original project media
+
+          These screenshots were copied from the original team project repository:
+          `harrythentrepreneur/vibecode-together/landing/images/aj/`.
+
+          They are included in this repository for Lavine's authorized portfolio/showcase use of the team-created AgentJAM project. Their inclusion does not imply sole authorship or exclusive ownership of the original project.
+          EOF
+
+      - name: Commit vendored media
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/agentjam
+
+          if git diff --cached --quiet; then
+            echo "No media changes to commit."
+            exit 0
+          fi
+
+          git commit -m "assets: vendor original AgentJAM project screenshots"
+          git push

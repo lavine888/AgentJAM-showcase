@@ -28,6 +28,39 @@ AgentJAM explores a simple idea: when AI can write code faster than ever, the ne
 
 ---
 
+## Real project snapshots
+
+These are **real screenshots from the original team-built AgentJAM prototype**, not mockups created later for this showcase repository.
+
+<table>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot01.png" alt="AgentJAM original desktop collaboration view" /></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot02.png" alt="AgentJAM running inside the Minecraft world" /></td>
+</tr>
+<tr>
+<td><b>Shared desktop view.</b> A real capture from the original AgentJAM build.</td>
+<td><b>Inside the Minecraft world.</b> The project experience running in-world rather than as a standalone mockup.</td>
+</tr>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot03.png" alt="AgentJAM original prototype snapshot 03" /></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot04.png" alt="AgentJAM original prototype snapshot 04" /></td>
+</tr>
+<tr>
+<td><b>Original prototype snapshot.</b> Part of the AgentJAM team project media set.</td>
+<td><b>Original prototype snapshot.</b> Part of the AgentJAM team project media set.</td>
+</tr>
+</table>
+
+<div align="center">
+
+**[▶ Watch the original AgentJAM screen recording](https://github.com/harrythentrepreneur/vibecode-together/blob/main/landing/videos/agentjam.mp4)**
+
+<sub>Original project media is referenced directly from the team project repository and shown here as part of Lavine's authorized project showcase. The media files are not re-hosted in this showcase repository.</sub>
+
+</div>
+
+---
+
 ## The problem: AI writes faster, teams desync faster
 
 AI coding tools make an individual developer dramatically faster. But put several people — each with their own agent, terminal, branch and chat context — on the same fast-moving prototype, and a new problem appears:
@@ -297,6 +330,8 @@ This repository presents the project from **Lavine's perspective as a project pa
 Lavine has the right / permission to showcase the project and related outcomes in a portfolio context. Credit for the original project belongs to the team members who contributed to its creation.
 
 This repository primarily contains a separately maintained presentation layer and documentation used to communicate the concept, interaction model and product thinking around AgentJAM.
+
+The original AgentJAM screenshots and recording shown above are **referenced directly from the team project repository** for portfolio presentation; they are not copied into this showcase repository.
 
 If additional team credits or links to the original collaborative materials are published later, they can be listed here explicitly.
 

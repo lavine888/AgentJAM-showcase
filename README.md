@@ -46,8 +46,8 @@ These are **real screenshots from the original team-built AgentJAM prototype**, 
 <td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot04.png" alt="AgentJAM original prototype snapshot 04" /></td>
 </tr>
 <tr>
-<td><b>Original prototype snapshot.</b> Part of the AgentJAM team project media set.</td>
-<td><b>Original prototype snapshot.</b> Part of the AgentJAM team project media set.</td>
+<td><b>Built, not rendered.</b> One of the original prototype scenes.</td>
+<td><b>Working product surface.</b> A real state from the team project media set.</td>
 </tr>
 </table>
 
@@ -55,7 +55,7 @@ These are **real screenshots from the original team-built AgentJAM prototype**, 
 
 **[▶ Watch the original AgentJAM screen recording](https://github.com/harrythentrepreneur/vibecode-together/blob/main/landing/videos/agentjam.mp4)**
 
-<sub>Original project media is referenced directly from the team project repository and shown here as part of Lavine's authorized project showcase. The media files are not re-hosted in this showcase repository.</sub>
+<sub>Original project media from the team repository, shown here as part of Lavine's authorized project showcase.</sub>
 
 </div>
 
@@ -110,6 +110,13 @@ Picture a three-person team trying to ship a demo before midnight.
 
 The goal is simple: **replace “whose local version are we looking at?” with one room that always knows what the team is building.**
 
+<table>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot05.png" alt="AgentJAM original workflow snapshot 05" /></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot06.png" alt="AgentJAM original workflow snapshot 06" /></td>
+</tr>
+</table>
+
 ---
 
 ## Minecraft is not just the skin
@@ -155,6 +162,13 @@ Hackathons, teaching and fast product sprints are not only about the final artif
 
 There is a surprisingly important difference between “three people are editing the same repo” and “three people feel like they are building in the same workshop.” AgentJAM is an experiment in making that collaboration feel present again.
 
+<table>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot07.png" alt="AgentJAM original product snapshot 07" /></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot08.png" alt="AgentJAM original product snapshot 08" /></td>
+</tr>
+</table>
+
 ---
 
 ## What the showcase demonstrates
@@ -169,6 +183,13 @@ The current showcase makes the interaction model concrete:
 - spatial metaphors for synchronization and conflict risk;
 - snapshot/replay as a first-class collaboration primitive;
 - a Minecraft-style interface where the visual language maps to product behavior.
+
+<table>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot09.png" alt="AgentJAM original showcase snapshot 09" /></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot10.png" alt="AgentJAM original showcase snapshot 10" /></td>
+</tr>
+</table>
 
 <div align="center">
 
@@ -331,7 +352,7 @@ Lavine has the right / permission to showcase the project and related outcomes i
 
 This repository primarily contains a separately maintained presentation layer and documentation used to communicate the concept, interaction model and product thinking around AgentJAM.
 
-The original AgentJAM screenshots and recording shown above are **referenced directly from the team project repository** for portfolio presentation; they are not copied into this showcase repository.
+The original AgentJAM screenshots and recording shown throughout this README come from the team project media set and are included here for portfolio presentation under that showcase permission.
 
 If additional team credits or links to the original collaborative materials are published later, they can be listed here explicitly.
 

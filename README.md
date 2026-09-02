@@ -18,6 +18,8 @@ AgentJAM explores a simple idea: when AI can write code faster than ever, the ne
 
 `Minecraft-inspired spatial UI` · `Multi-agent collaboration` · `Voice + terminal` · `Shared project state`
 
+**Prototype tools:** `Claude Code` · `Hermes Agent` · `Terminal` · `Browser`
+
 <br/>
 
 [![AgentJAM — multiplayer AI coding space](assets/agentjam-hero.svg)](https://lavine888.github.io/AgentJAM-showcase/)
@@ -42,12 +44,10 @@ These are **real screenshots from the original team-built AgentJAM prototype**, 
 <td><b>Inside the Minecraft world.</b> The project experience running in-world rather than as a standalone mockup.</td>
 </tr>
 <tr>
-<td width="50%"><img src="assets/agentjam/shot03.png" alt="AgentJAM original prototype snapshot 03" /></td>
-<td width="50%"><img src="assets/agentjam/shot04.png" alt="AgentJAM original prototype snapshot 04" /></td>
+<td colspan="2"><img src="assets/agentjam/shot03.png" alt="AgentJAM original prototype scene" /></td>
 </tr>
 <tr>
-<td><b>Built, not rendered.</b> One of the original prototype scenes.</td>
-<td><b>Working product surface.</b> A real state from the team project media set.</td>
+<td colspan="2"><b>Built, not rendered.</b> Another real in-world state from the original AgentJAM prototype.</td>
 </tr>
 </table>
 
@@ -112,8 +112,12 @@ The goal is simple: **replace “whose local version are we looking at?” with 
 
 <table>
 <tr>
-<td width="50%"><img src="assets/agentjam/shot05.png" alt="AgentJAM original workflow snapshot 05" /></td>
-<td width="50%"><img src="assets/agentjam/shot06.png" alt="AgentJAM original workflow snapshot 06" /></td>
+<td width="50%"><img src="assets/agentjam/shot06.png" alt="AgentJAM agent workstation in the shared Minecraft room" /></td>
+<td width="50%"><img src="assets/agentjam/shot07.png" alt="AgentJAM collaborative coding scene" /></td>
+</tr>
+<tr>
+<td><b>Agent workstation.</b> A coding agent operating inside the shared room.</td>
+<td><b>Shared build state.</b> Another real collaboration scene from the prototype.</td>
 </tr>
 </table>
 
@@ -164,8 +168,8 @@ There is a surprisingly important difference between “three people are editing
 
 <table>
 <tr>
-<td width="50%"><img src="assets/agentjam/shot07.png" alt="AgentJAM original product snapshot 07" /></td>
-<td width="50%"><img src="assets/agentjam/shot08.png" alt="AgentJAM original product snapshot 08" /></td>
+<td width="50%"><img src="assets/agentjam/shot08.png" alt="AgentJAM product interaction scene" /></td>
+<td width="50%"><img src="assets/agentjam/shot09.png" alt="AgentJAM shared coding environment" /></td>
 </tr>
 </table>
 
@@ -184,12 +188,9 @@ The current showcase makes the interaction model concrete:
 - snapshot/replay as a first-class collaboration primitive;
 - a Minecraft-style interface where the visual language maps to product behavior.
 
-<table>
-<tr>
-<td width="50%"><img src="assets/agentjam/shot09.png" alt="AgentJAM original showcase snapshot 09" /></td>
-<td width="50%"><img src="assets/agentjam/shot10.png" alt="AgentJAM original showcase snapshot 10" /></td>
-</tr>
-</table>
+<div align="center">
+<img src="assets/agentjam/shot10.png" alt="AgentJAM original showcase scene" width="100%" />
+</div>
 
 <div align="center">
 

@@ -18,6 +18,8 @@ AgentJAM 探索的是一个很简单的问题：当 AI 写代码越来越快，�
 
 `Minecraft 风格空间界面` · `多 Agent 协作` · `语音 + 终端` · `共享项目状态`
 
+**原型工具：** `Claude Code` · `Hermes Agent` · `Terminal` · `Browser`
+
 <br/>
 
 [![AgentJAM — multiplayer AI coding space](assets/agentjam-hero.svg)](https://lavine888.github.io/AgentJAM-showcase/)
@@ -42,12 +44,10 @@ AgentJAM 探索的是一个很简单的问题：当 AI 写代码越来越快，�
 <td><b>Minecraft 世界内运行。</b> 项目体验真正进入游戏世界，而不是一张独立的概念效果图。</td>
 </tr>
 <tr>
-<td width="50%"><img src="assets/agentjam/shot03.png" alt="AgentJAM 原始项目截图 03" /></td>
-<td width="50%"><img src="assets/agentjam/shot04.png" alt="AgentJAM 原始项目截图 04" /></td>
+<td colspan="2"><img src="assets/agentjam/shot03.png" alt="AgentJAM 原始项目实景" /></td>
 </tr>
 <tr>
-<td><b>不是概念渲染图。</b> 来自当时真实原型的一帧。</td>
-<td><b>真实产品界面。</b> 来自团队项目的原始媒体素材。</td>
+<td colspan="2"><b>真实原型实景。</b> 来自当时 AgentJAM 在 Minecraft 世界内运行的另一帧。</td>
 </tr>
 </table>
 
@@ -164,8 +164,8 @@ AgentJAM 里的 Minecraft 元素会直接映射到协作逻辑：
 
 <table>
 <tr>
-<td width="50%"><img src="assets/agentjam/shot07.png" alt="AgentJAM 原始产品截图 07" /></td>
-<td width="50%"><img src="assets/agentjam/shot08.png" alt="AgentJAM 原始产品截图 08" /></td>
+<td width="50%"><img src="assets/agentjam/shot08.png" alt="AgentJAM 产品交互实景" /></td>
+<td width="50%"><img src="assets/agentjam/shot09.png" alt="AgentJAM 共享编程环境" /></td>
 </tr>
 </table>
 

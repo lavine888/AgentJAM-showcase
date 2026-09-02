@@ -34,16 +34,16 @@ AgentJAM 探索的是一个很简单的问题：当 AI 写代码越来越快，�
 
 <table>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot01.png" alt="AgentJAM 原始桌面协作视图" /></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot02.png" alt="AgentJAM 在 Minecraft 世界内运行" /></td>
+<td width="50%"><img src="assets/agentjam/shot01.png" alt="AgentJAM 原始桌面协作视图" /></td>
+<td width="50%"><img src="assets/agentjam/shot02.png" alt="AgentJAM 在 Minecraft 世界内运行" /></td>
 </tr>
 <tr>
 <td><b>共享桌面视图。</b> 来自原始 AgentJAM 项目构建过程的真实画面。</td>
 <td><b>Minecraft 世界内运行。</b> 项目体验真正进入游戏世界，而不是一张独立的概念效果图。</td>
 </tr>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot03.png" alt="AgentJAM 原始项目截图 03" /></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot04.png" alt="AgentJAM 原始项目截图 04" /></td>
+<td width="50%"><img src="assets/agentjam/shot03.png" alt="AgentJAM 原始项目截图 03" /></td>
+<td width="50%"><img src="assets/agentjam/shot04.png" alt="AgentJAM 原始项目截图 04" /></td>
 </tr>
 <tr>
 <td><b>不是概念渲染图。</b> 来自当时真实原型的一帧。</td>
@@ -53,7 +53,7 @@ AgentJAM 探索的是一个很简单的问题：当 AI 写代码越来越快，�
 
 <div align="center">
 
-**[▶ 查看原始 AgentJAM 屏幕录制](https://github.com/harrythentrepreneur/vibecode-together/blob/main/landing/videos/agentjam.mp4)**
+**[▶ 查看原始 AgentJAM 屏幕录制](assets/agentjam/agentjam.mp4)**
 
 <sub>原始项目媒体来自团队项目仓库，并基于 Lavine 对该项目成果的展示权用于个人项目展示。</sub>
 
@@ -112,8 +112,8 @@ AgentJAM 把 AI 编程协作变成一个 **受 Minecraft 启发的共享 3D 工�
 
 <table>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot05.png" alt="AgentJAM 原始流程截图 05" /></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot06.png" alt="AgentJAM 原始流程截图 06" /></td>
+<td width="50%"><img src="assets/agentjam/shot05.png" alt="AgentJAM 原始流程截图 05" /></td>
+<td width="50%"><img src="assets/agentjam/shot06.png" alt="AgentJAM 原始流程截图 06" /></td>
 </tr>
 </table>
 
@@ -164,8 +164,8 @@ AgentJAM 里的 Minecraft 元素会直接映射到协作逻辑：
 
 <table>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot07.png" alt="AgentJAM 原始产品截图 07" /></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot08.png" alt="AgentJAM 原始产品截图 08" /></td>
+<td width="50%"><img src="assets/agentjam/shot07.png" alt="AgentJAM 原始产品截图 07" /></td>
+<td width="50%"><img src="assets/agentjam/shot08.png" alt="AgentJAM 原始产品截图 08" /></td>
 </tr>
 </table>
 
@@ -186,8 +186,8 @@ AgentJAM 里的 Minecraft 元素会直接映射到协作逻辑：
 
 <table>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot09.png" alt="AgentJAM 原始展示截图 09" /></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot10.png" alt="AgentJAM 原始展示截图 10" /></td>
+<td width="50%"><img src="assets/agentjam/shot09.png" alt="AgentJAM 原始展示截图 09" /></td>
+<td width="50%"><img src="assets/agentjam/shot10.png" alt="AgentJAM 原始展示截图 10" /></td>
 </tr>
 </table>
 

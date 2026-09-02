@@ -34,16 +34,16 @@ These are **real screenshots from the original team-built AgentJAM prototype**, 
 
 <table>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot01.png" alt="AgentJAM original desktop collaboration view" /></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot02.png" alt="AgentJAM running inside the Minecraft world" /></td>
+<td width="50%"><img src="assets/agentjam/shot01.png" alt="AgentJAM original desktop collaboration view" /></td>
+<td width="50%"><img src="assets/agentjam/shot02.png" alt="AgentJAM running inside the Minecraft world" /></td>
 </tr>
 <tr>
 <td><b>Shared desktop view.</b> A real capture from the original AgentJAM build.</td>
 <td><b>Inside the Minecraft world.</b> The project experience running in-world rather than as a standalone mockup.</td>
 </tr>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot03.png" alt="AgentJAM original prototype snapshot 03" /></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot04.png" alt="AgentJAM original prototype snapshot 04" /></td>
+<td width="50%"><img src="assets/agentjam/shot03.png" alt="AgentJAM original prototype snapshot 03" /></td>
+<td width="50%"><img src="assets/agentjam/shot04.png" alt="AgentJAM original prototype snapshot 04" /></td>
 </tr>
 <tr>
 <td><b>Built, not rendered.</b> One of the original prototype scenes.</td>
@@ -53,7 +53,7 @@ These are **real screenshots from the original team-built AgentJAM prototype**, 
 
 <div align="center">
 
-**[▶ Watch the original AgentJAM screen recording](https://github.com/harrythentrepreneur/vibecode-together/blob/main/landing/videos/agentjam.mp4)**
+**[▶ Watch the original AgentJAM screen recording](assets/agentjam/agentjam.mp4)**
 
 <sub>Original project media from the team repository, shown here as part of Lavine's authorized project showcase.</sub>
 
@@ -112,8 +112,8 @@ The goal is simple: **replace “whose local version are we looking at?” with 
 
 <table>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot05.png" alt="AgentJAM original workflow snapshot 05" /></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot06.png" alt="AgentJAM original workflow snapshot 06" /></td>
+<td width="50%"><img src="assets/agentjam/shot05.png" alt="AgentJAM original workflow snapshot 05" /></td>
+<td width="50%"><img src="assets/agentjam/shot06.png" alt="AgentJAM original workflow snapshot 06" /></td>
 </tr>
 </table>
 
@@ -164,8 +164,8 @@ There is a surprisingly important difference between “three people are editing
 
 <table>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot07.png" alt="AgentJAM original product snapshot 07" /></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot08.png" alt="AgentJAM original product snapshot 08" /></td>
+<td width="50%"><img src="assets/agentjam/shot07.png" alt="AgentJAM original product snapshot 07" /></td>
+<td width="50%"><img src="assets/agentjam/shot08.png" alt="AgentJAM original product snapshot 08" /></td>
 </tr>
 </table>
 
@@ -186,8 +186,8 @@ The current showcase makes the interaction model concrete:
 
 <table>
 <tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot09.png" alt="AgentJAM original showcase snapshot 09" /></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot10.png" alt="AgentJAM original showcase snapshot 10" /></td>
+<td width="50%"><img src="assets/agentjam/shot09.png" alt="AgentJAM original showcase snapshot 09" /></td>
+<td width="50%"><img src="assets/agentjam/shot10.png" alt="AgentJAM original showcase snapshot 10" /></td>
 </tr>
 </table>
 

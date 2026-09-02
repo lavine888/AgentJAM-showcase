@@ -46,8 +46,8 @@ AgentJAM 探索的是一个很简单的问题：当 AI 写代码越来越快，�
 <td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot04.png" alt="AgentJAM 原始项目截图 04" /></td>
 </tr>
 <tr>
-<td><b>原型实景。</b> 来自 AgentJAM 团队项目的原始媒体素材。</td>
-<td><b>原型实景。</b> 来自 AgentJAM 团队项目的原始媒体素材。</td>
+<td><b>不是概念渲染图。</b> 来自当时真实原型的一帧。</td>
+<td><b>真实产品界面。</b> 来自团队项目的原始媒体素材。</td>
 </tr>
 </table>
 
@@ -55,7 +55,7 @@ AgentJAM 探索的是一个很简单的问题：当 AI 写代码越来越快，�
 
 **[▶ 查看原始 AgentJAM 屏幕录制](https://github.com/harrythentrepreneur/vibecode-together/blob/main/landing/videos/agentjam.mp4)**
 
-<sub>上述原始项目媒体直接引用自团队项目仓库，并基于 Lavine 对该项目成果的展示权用于个人项目展示；媒体文件本身没有重新复制或托管到这个 Showcase 仓库。</sub>
+<sub>原始项目媒体来自团队项目仓库，并基于 Lavine 对该项目成果的展示权用于个人项目展示。</sub>
 
 </div>
 
@@ -110,6 +110,13 @@ AgentJAM 把 AI 编程协作变成一个 **受 Minecraft 启发的共享 3D 工�
 
 目标其实很简单：**不再问“我们现在看的到底是谁电脑里的版本？”，而是让一个共享房间始终知道团队正在构建什么。**
 
+<table>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot05.png" alt="AgentJAM 原始流程截图 05" /></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot06.png" alt="AgentJAM 原始流程截图 06" /></td>
+</tr>
+</table>
+
 ---
 
 ## Minecraft 不只是视觉皮肤
@@ -155,6 +162,13 @@ AgentJAM 里的 Minecraft 元素会直接映射到协作逻辑：
 
 “三个人都在编辑同一个仓库”和“三个人真的感觉自己在同一个工作室里一起造东西”，其实是两种完全不同的体验。AgentJAM 想探索的，就是如何让数字协作重新获得这种共同在场感。
 
+<table>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot07.png" alt="AgentJAM 原始产品截图 07" /></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot08.png" alt="AgentJAM 原始产品截图 08" /></td>
+</tr>
+</table>
+
 ---
 
 ## 当前 Showcase 展示了什么
@@ -169,6 +183,13 @@ AgentJAM 里的 Minecraft 元素会直接映射到协作逻辑：
 - 用空间隐喻表达同步和冲突风险；
 - 将快照 / 回放作为核心协作能力；
 - 一套 Minecraft 风格界面，并让视觉元素真正对应产品行为。
+
+<table>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot09.png" alt="AgentJAM 原始展示截图 09" /></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot10.png" alt="AgentJAM 原始展示截图 10" /></td>
+</tr>
+</table>
 
 <div align="center">
 
@@ -333,7 +354,7 @@ Lavine 拥有将该项目及相关成果用于个人作品集、项目经历和�
 
 当前仓库主要维护的是一个独立的展示层与相关文档，用于呈现 AgentJAM 的产品概念、交互模型和背后的产品思考。
 
-上面展示的 AgentJAM 原始截图和录屏，均**直接引用自团队项目仓库**用于作品集展示，并没有把原始媒体文件重新复制进这个 Showcase 仓库。
+README 中穿插展示的 AgentJAM 原始截图与录屏来自团队项目媒体素材，并基于上述展示权限用于个人作品集呈现。
 
 如果后续公开完整团队成员名单、原始协作材料或相关链接，也可以在这里进一步补充明确的 Credit。
 

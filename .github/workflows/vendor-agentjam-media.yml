@@ -1,7 +1,6 @@
 name: Vendor AgentJAM media
 
 on:
-  workflow_dispatch:
   push:
     paths:
       - ".github/workflows/vendor-agentjam-media.yml"
@@ -23,22 +22,24 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p assets/agentjam
-          BASE="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj"
 
-          for i in $(seq -w 1 10); do
-            echo "Fetching shot${i}.png"
-            curl -fL --retry 3 --retry-delay 2 \
-              "${BASE}/shot${i}.png" \
-              -o "assets/agentjam/shot${i}.png"
-          done
+          curl -fL --retry 3 "https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot01.png?token=BMXQOLVFZ5ERIZ44NVPFT43KS7N4FAA" -o assets/agentjam/shot01.png
+          curl -fL --retry 3 "https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot02.png?token=BMXQOLQI53XAD7UGC5HNPBTKS7N4FAA" -o assets/agentjam/shot02.png
+          curl -fL --retry 3 "https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot03.png?token=BMXQOLWRWKP3UIKVJDINBFLKS7N4FAA" -o assets/agentjam/shot03.png
+          curl -fL --retry 3 "https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot04.png?token=BMXQOLXOGY423Q3PQ6M632DKS7N4FAA" -o assets/agentjam/shot04.png
+          curl -fL --retry 3 "https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot05.png?token=BMXQOLSICCRT3UGIHXHX2KLKS7N4FAA" -o assets/agentjam/shot05.png
+          curl -fL --retry 3 "https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot06.png?token=BMXQOLUYYR2Q4USV5CSIEL3KS7N4FAA" -o assets/agentjam/shot06.png
+          curl -fL --retry 3 "https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot07.png?token=BMXQOLRKJYJBHM47BVK3ZETKS7N4FAA" -o assets/agentjam/shot07.png
+          curl -fL --retry 3 "https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot08.png?token=BMXQOLS5VMGW6ZNSUHBA3X3KS7N4FAA" -o assets/agentjam/shot08.png
+          curl -fL --retry 3 "https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot09.png?token=BMXQOLRNLV5G6523AYG3PADKS7N4FAA" -o assets/agentjam/shot09.png
+          curl -fL --retry 3 "https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot10.png?token=BMXQOLUVM5ND6RBESVKUZ4DKS7N4FAA" -o assets/agentjam/shot10.png
 
           cat > assets/agentjam/README.md <<'EOF'
           # AgentJAM original project media
 
-          These screenshots were copied from the original team project repository:
-          `harrythentrepreneur/vibecode-together/landing/images/aj/`.
+          These screenshots originate from the original team-created AgentJAM project repository.
 
-          They are included in this repository for Lavine's authorized portfolio/showcase use of the team-created AgentJAM project. Their inclusion does not imply sole authorship or exclusive ownership of the original project.
+          They are included here for Lavine's authorized portfolio/showcase use of the team project. Their inclusion does not imply sole authorship or exclusive ownership of the original project.
           EOF
 
       - name: Commit vendored media
@@ -48,11 +49,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/agentjam
-
-          if git diff --cached --quiet; then
-            echo "No media changes to commit."
-            exit 0
-          fi
-
           git commit -m "assets: vendor original AgentJAM project screenshots"
           git push

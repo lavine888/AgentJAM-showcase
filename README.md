@@ -2,7 +2,7 @@
 
 # ⛏️ AgentJAM
 
-### Multiplayer AI coding, reimagined as a place you can walk into.
+### The multiplayer room for humans and AI agents to build software together.
 
 **在 Minecraft 里，把“多人 + 多个 AI Agent 一起写代码”变成一个真正共享的空间。**
 
@@ -11,7 +11,7 @@ AgentJAM explores a simple idea: when AI can write code faster than ever, the ne
 <br/>
 
 [![Live Showcase](https://img.shields.io/badge/▶_Live_Showcase-07110F?style=for-the-badge&logo=github&logoColor=79ff8f)](https://lavine888.github.io/AgentJAM-showcase/)
-[![Project Type](https://img.shields.io/badge/◆_Team_Co--Created-173329?style=for-the-badge)](#project-context--attribution)
+[![Architecture](https://img.shields.io/badge/◆_Architecture-173329?style=for-the-badge)](docs/ARCHITECTURE.md)
 [![Status](https://img.shields.io/badge/⛏_Interactive_Concept_Showcase-28483D?style=for-the-badge)](#what-this-repository-is)
 
 `Minecraft-inspired spatial UI` · `Multi-agent collaboration` · `Voice + terminal` · `Shared project state`
@@ -61,7 +61,9 @@ Instead of every developer privately operating an AI assistant, the team experie
 
 ---
 
-## How a session works
+## A hackathon session in five moves
+
+Picture a three-person team trying to ship a demo before midnight.
 
 | Step | In AgentJAM | What it solves |
 | --- | --- | --- |
@@ -70,6 +72,8 @@ Instead of every developer privately operating an AI assistant, the team experie
 | **03 · Give an instruction** | Use voice for fast delegation or terminal input for precise control. | Keeps interaction lightweight without hiding the work. |
 | **04 · Watch the project wall** | Diffs, previews, task progress, tests and conflict signals appear in the shared space. | Turns invisible agent activity into team-visible events. |
 | **05 · Save a snapshot** | Important milestones become replayable project states. | Makes rollback, demo storytelling and retrospectives easier. |
+
+The goal is simple: **replace “whose local version are we looking at?” with one room that always knows what the team is building.**
 
 ---
 
@@ -118,15 +122,24 @@ There is a surprisingly important difference between “three people are editing
 
 ---
 
-## Who it is for
+## What the showcase demonstrates
 
-**Hackathon teams** — parallelize aggressively without completely losing the shared story of the build.
+This repository is an **interactive product concept**, not a claim that a full multiplayer coding runtime is already production-ready.
 
-**AI-native product teams** — coordinate several humans and several coding agents around one fast-moving prototype.
+The current showcase makes the interaction model concrete:
 
-**Programming education** — let instructors observe not only the final code, but how students divide tasks, prompt agents, debug and recover from mistakes.
+- personal AI workstations with visible task ownership;
+- a voice + terminal interaction model;
+- a central project wall for preview, Diff, tests and status;
+- spatial metaphors for synchronization and conflict risk;
+- snapshot/replay as a first-class collaboration primitive;
+- a Minecraft-style interface where the visual language maps to product behavior.
 
-**Remote creative coding teams** — create a stronger feeling of co-presence than a stack of tabs, calls and pull requests.
+<div align="center">
+
+### ▶ [Open the interactive showcase](https://lavine888.github.io/AgentJAM-showcase/)
+
+</div>
 
 ---
 
@@ -160,16 +173,79 @@ It asks:
         ├── Agent workstation C ──► coding agent / task context
         │
         ▼
+[ Collaboration runtime ]
+        ├── room + presence state
+        ├── task ownership
+        ├── event stream
+        └── conflict awareness
+        │
+        ▼
 [ Shared project state ]
+        ├── isolated worktrees
         ├── code changes / Diff
         ├── running preview
         ├── tests + logs
-        ├── task status
-        ├── conflict signals
+        ├── merge checkpoints
         └── historical snapshots
+        │
+        ▼
+[ Central project wall ]
 ```
 
-This repository focuses on communicating and demonstrating that interaction model rather than shipping the complete production runtime.
+The intended production model keeps agents isolated while making their work visible to the whole room. A collaboration runtime normalizes status and events; a project runtime owns Git worktrees, previews, tests, snapshots and merge checkpoints.
+
+📖 **[Read the full architecture note →](docs/ARCHITECTURE.md)**
+
+---
+
+## The first real vertical slice
+
+Before building a giant Minecraft platform, the core thesis can be tested with one narrow loop:
+
+> **2 humans → 2 isolated agent worktrees → 1 shared preview wall → visible Diffs → conflict warning → merge checkpoint.**
+
+If that loop feels materially better than “two people each running an agent and meeting later in Git,” then the spatial layer is earning its keep.
+
+A practical implementation would likely separate the system into:
+
+| Layer | Responsibility |
+| --- | --- |
+| **3D client** | presence, workstations, project wall, spatial interactions |
+| **Collaboration runtime** | rooms, users, events, ownership, conflict signals |
+| **Agent adapters** | launch/control coding agents and normalize their state |
+| **Project runtime** | Git worktrees, builds, tests, previews, snapshots, rollback |
+| **Realtime transport** | broadcast project and agent events to every participant |
+
+---
+
+## Who it is for
+
+**Hackathon teams** — parallelize aggressively without completely losing the shared story of the build.
+
+**AI-native product teams** — coordinate several humans and several coding agents around one fast-moving prototype.
+
+**Programming education** — let instructors observe not only the final code, but how students divide tasks, prompt agents, debug and recover from mistakes.
+
+**Remote creative coding teams** — create a stronger feeling of co-presence than a stack of tabs, calls and pull requests.
+
+---
+
+## Run the showcase locally
+
+The current demo is deliberately lightweight: **one static HTML page, no framework and no build step**.
+
+```bash
+# Clone
+git clone https://github.com/lavine888/AgentJAM-showcase.git
+cd AgentJAM-showcase
+
+# Serve locally
+python3 -m http.server 8000
+
+# Open http://localhost:8000
+```
+
+You can also open `index.html` directly in a browser, but a local HTTP server is the most reliable way to load the local font assets.
 
 ---
 
@@ -179,17 +255,33 @@ This repository focuses on communicating and demonstrating that interaction mode
 
 ```text
 AgentJAM-showcase/
-├── index.html              interactive GitHub Pages showcase
+├── index.html                  interactive GitHub Pages showcase
 ├── assets/
-│   └── agentjam-hero.svg   README / project hero visual
-├── _shared/fonts/          local presentation fonts
-├── .nojekyll               GitHub Pages static-asset support
-└── README.md               project story + documentation
+│   └── agentjam-hero.svg      README hero visual
+├── docs/
+│   └── ARCHITECTURE.md        intended production architecture
+├── _shared/
+│   └── fonts/                  local presentation fonts
+├── .nojekyll                   GitHub Pages static-asset support
+└── README.md                   project story + documentation
 ```
 
 The live page is intentionally designed like a Minecraft HUD / collaborative coding room so the product idea can be understood without requiring the full underlying system to be running.
 
-**▶ [Open the live showcase](https://lavine888.github.io/AgentJAM-showcase/)**
+---
+
+## Roadmap
+
+- [x] Interactive product showcase
+- [x] Minecraft-native collaboration language
+- [x] Product architecture and event model
+- [ ] Realtime multi-user room state
+- [ ] Coding-agent workstation adapter
+- [ ] Git worktree isolation per agent
+- [ ] Shared live preview + Diff wall
+- [ ] Pre-merge conflict awareness
+- [ ] Snapshot / replay timeline
+- [ ] Minecraft/Fabric proof of concept
 
 ---
 
@@ -217,11 +309,12 @@ Minecraft is a trademark of Mojang Studios / Microsoft. AgentJAM is an independe
 
 <div align="center">
 
-### GitHub solved distance between developers.
-### AgentJAM explores what happens when the distance between **humans, agents and the project itself** disappears.
+### Coding agents are already fast. The next problem is making them work together.
 
 <br/>
 
 [![Enter AgentJAM](https://img.shields.io/badge/⛏_ENTER_AGENTJAM-79ff8f?style=for-the-badge&labelColor=07110F)](https://lavine888.github.io/AgentJAM-showcase/)
+
+**[◆ Architecture](docs/ARCHITECTURE.md)** · **[⌘ View source](index.html)**
 
 </div>

@@ -28,6 +28,39 @@ AgentJAM 探索的是一个很简单的问题：当 AI 写代码越来越快，�
 
 ---
 
+## 真实项目截图
+
+下面这些是**当时团队共创 AgentJAM 原型的真实项目截图**，不是后来为了这个 Showcase 临时补出来的概念 Mockup。
+
+<table>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot01.png" alt="AgentJAM 原始桌面协作视图" /></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot02.png" alt="AgentJAM 在 Minecraft 世界内运行" /></td>
+</tr>
+<tr>
+<td><b>共享桌面视图。</b> 来自原始 AgentJAM 项目构建过程的真实画面。</td>
+<td><b>Minecraft 世界内运行。</b> 项目体验真正进入游戏世界，而不是一张独立的概念效果图。</td>
+</tr>
+<tr>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot03.png" alt="AgentJAM 原始项目截图 03" /></td>
+<td width="50%"><img src="https://raw.githubusercontent.com/harrythentrepreneur/vibecode-together/main/landing/images/aj/shot04.png" alt="AgentJAM 原始项目截图 04" /></td>
+</tr>
+<tr>
+<td><b>原型实景。</b> 来自 AgentJAM 团队项目的原始媒体素材。</td>
+<td><b>原型实景。</b> 来自 AgentJAM 团队项目的原始媒体素材。</td>
+</tr>
+</table>
+
+<div align="center">
+
+**[▶ 查看原始 AgentJAM 屏幕录制](https://github.com/harrythentrepreneur/vibecode-together/blob/main/landing/videos/agentjam.mp4)**
+
+<sub>上述原始项目媒体直接引用自团队项目仓库，并基于 Lavine 对该项目成果的展示权用于个人项目展示；媒体文件本身没有重新复制或托管到这个 Showcase 仓库。</sub>
+
+</div>
+
+---
+
 ## 问题：AI 写得越快，团队反而越容易失去同步
 
 AI 编程工具正在显著提高单个开发者的产出速度。但当一个快速迭代的项目里同时出现几个人，而且每个人都有自己的 Agent、终端、分支和聊天上下文时，一个新的问题就出现了：
@@ -299,6 +332,8 @@ AgentJAM-showcase/
 Lavine 拥有将该项目及相关成果用于个人作品集、项目经历和公开展示的权利 / 授权。原始项目的创作贡献属于所有实际参与共创的团队成员。
 
 当前仓库主要维护的是一个独立的展示层与相关文档，用于呈现 AgentJAM 的产品概念、交互模型和背后的产品思考。
+
+上面展示的 AgentJAM 原始截图和录屏，均**直接引用自团队项目仓库**用于作品集展示，并没有把原始媒体文件重新复制进这个 Showcase 仓库。
 
 如果后续公开完整团队成员名单、原始协作材料或相关链接，也可以在这里进一步补充明确的 Credit。
 

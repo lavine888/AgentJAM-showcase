@@ -1,5 +1,7 @@
 <div align="center">
 
+**English | [中文](README.zh-CN.md)**
+
 # ⛏️ AgentJAM
 
 ### The multiplayer room for humans and AI agents to build software together.
@@ -263,7 +265,8 @@ AgentJAM-showcase/
 ├── _shared/
 │   └── fonts/                  local presentation fonts
 ├── .nojekyll                   GitHub Pages static-asset support
-└── README.md                   project story + documentation
+├── README.md                   English project story + documentation
+└── README.zh-CN.md             Chinese README
 ```
 
 The live page is intentionally designed like a Minecraft HUD / collaborative coding room so the product idea can be understood without requiring the full underlying system to be running.
@@ -315,6 +318,6 @@ Minecraft is a trademark of Mojang Studios / Microsoft. AgentJAM is an independe
 
 [![Enter AgentJAM](https://img.shields.io/badge/⛏_ENTER_AGENTJAM-79ff8f?style=for-the-badge&labelColor=07110F)](https://lavine888.github.io/AgentJAM-showcase/)
 
-**[◆ Architecture](docs/ARCHITECTURE.md)** · **[⌘ View source](index.html)**
+**[◆ Architecture](docs/ARCHITECTURE.md)** · **[⌘ View source](index.html)** · **[中文](README.zh-CN.md)**
 
 </div>
